@@ -47,7 +47,7 @@ if(isset( $_SESSION['user-id']) || isset($_SESSION['user_is_admin'])) :
                       // Function to check if the post is liked by the user
                       function checkIfLikedByUser($userId, $postId) {
                               //connect to the database 
-                              $connection = new mysqli('localhost', 'ravenous', 'GooglE@#7', 'bca4');
+                              $connection = new mysqli('localhost', 'ravenous', 'qwert123', 'bca4');
 
                               if(mysqli_errno($connection)) {
                                   die(mysqli_error($connection));
