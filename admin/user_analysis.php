@@ -107,6 +107,10 @@
                         <h5>Analytics</h5></a>
                     </li>
                     <?php endif ?>
+                    <li>
+                        <a href="settings.php"><i class="uil uil-sliders-v-alt"></i></i>
+                        <h5>Settings</h5></a>
+                    </li>
                 </ul>
             </aside>
             <main>
