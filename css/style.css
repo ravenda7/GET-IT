@@ -1872,3 +1872,81 @@ input, textarea, select {
         height: 150px;
     }
 }
+
+
+/*=======this is for the update profile page=======*/
+.update__profile-section {
+    margin-top: 6rem;
+    padding: 1rem 0;
+}
+.update__profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.update__profile-form .outer_profile-update{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+} 
+.outer_profile-update .left__profile-update {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.outer_profile-update .right__profile-update {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.profile_update{
+    width: 140px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+  }
+  .profile_update img{
+    border-radius: 50%;
+    border: 8px solid #DCDCDC;
+    width: 125px;
+    height: 125px;
+  }
+  .profile_update .rightRound{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #00B4FF;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .profile_update .leftRound{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: red;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .profile_update .fa{
+    color: white;
+  }
+  .profile_update input{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+  }
+  .profile_update input::-webkit-file-profile_update-button, .profile_update input[type=submit]{
+    cursor: pointer;
+  }

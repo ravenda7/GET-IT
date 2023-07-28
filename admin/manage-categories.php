@@ -101,6 +101,10 @@
                         <h5>Analytics</h5></a>
                     </li>
                     <?php endif ?>
+                    <li>
+                        <a href="profile_update.php" class=""> <i class="uil uil-sliders-v-alt"></i>
+                        <h5>Update Profile</h5></a>
+                    </li>
                 </ul>
             </aside>
             <main>

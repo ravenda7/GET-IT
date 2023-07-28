@@ -18,6 +18,7 @@ if(isset($_SESSION['user-id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--============cdn for icon scout========-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?= ROOT_URL ?>css/style.css">
     <link rel="stylesheet" href="<?= ROOT_URL ?>css/mode.css">
 
