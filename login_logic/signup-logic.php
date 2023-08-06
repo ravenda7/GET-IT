@@ -95,13 +95,13 @@
                     $extension = explode('.', $avatar_name);
                     $extension = end($extension);
                     if(in_array($extension, $allowed_files)) {
-                        // make sure image is not too large (1mb +)
-                        if($avatar['size'] < 1000000) {
+                        // make sure image is not too large (5mb +)
+                        if($avatar['size'] < 10000000) {
                             // upload avatar
                             move_uploaded_file($avatar_temp_name, $avatar_destination_path);
 
                         } else {
-                            $_SESSION['signup'] = "file size too big. should be less than 1mb";
+                            $_SESSION['signup'] = "file size too big. should be less than 5MB";
                         }
                     } else {
                         $_SESSION['signup'] = "file should be png, jpg or jpeg";

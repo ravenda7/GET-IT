@@ -16,11 +16,10 @@
     <div class="container form__section-container">
         <h2>Edit User</h2>
         <form class="update__profile-form" id = "form" action="update__profile-logic.php" enctype="multipart/form-data" method="post">
-            <input type="hidden" name="id" value="<?php echo $user['id']; ?>">
+        
             <div class="outer_profile-update">
                 <div class="left__profile-update">
                     <input type="text" placeholder="First Name" name="firstname" value="<?= $user['firstname'] ?>">
-                    <input type="hidden" name="id" value="<?= $user['id'] ?>">
                     <input type="text" placeholder="Last Name" name="lastname" value="<?= $user['lastname'] ?>">
                     <input type="text" placeholder="Username" name="username" value="<?= $user['username'] ?>">
                 </div>
@@ -40,9 +39,7 @@
                 </div>
             </div>
             <input type="text" placeholder="Email" name="email" value="<?= $user['email'] ?>">
-            <input type="password" name="currentPwd" placeholder="Current password" id="">
-            <input type="password" name="newPwd" placeholder="New Password">
-            <input type="password" name="confirmPwd" placeholder="Confirm Password" id="">
+           
             <button type="submit" class="btn" name="submit">Update</button>
         </form>
     </div>
