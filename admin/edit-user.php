@@ -1,16 +1,16 @@
 <?php
- include 'partials/header.php';
+include 'partials/header.php';
 
- if (isset($_GET['id'])) {
+if (isset($_GET['id'])) {
     $userId = base64_decode($_GET['id']);
-    $id = filter_var( $userId, FILTER_SANITIZE_NUMBER_INT);
+    $id = filter_var($userId, FILTER_SANITIZE_NUMBER_INT);
     $query = "SELECT * FROM users WHERE id=$id";
     $result = mysqli_query($connection, $query);
     $user = mysqli_fetch_assoc($result);
- } else {
-    header('location: ' .ROOT_URL . 'admin/manage-user.php');
- }
- ?>
+} else {
+    header('location: ' . ROOT_URL . 'admin/manage-user.php');
+}
+?>
 <section class="form__section ">
     <div class="container form__section-container">
         <h2>Edit User</h2>
@@ -23,7 +23,7 @@
                 <option value="0">Author</option>
                 <option value="1">Amin</option>
             </select>
-          <button type="submit" class="btn" name="submit">Update User</button>
+            <button type="submit" class="btn" name="submit">Update User</button>
         </form>
     </div>
 </section>
@@ -31,5 +31,5 @@
 
 <!--=======end of the category btn======-->
 <?php
- include '../partials/footer.php';
- ?>
+include '../partials/footer.php';
+?>

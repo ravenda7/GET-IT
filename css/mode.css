@@ -1,46 +1,45 @@
-
 /*========== Variables Light theme ==========*/
-body.dark-theme{
-  
-    /*========== Colors ==========*/
-    --color-primary: #6f6af8;
-    --color-primary-light: hsl(242, 91%, 69%, 18%);
-    --color-primary-variant: #5854c7;
-    --color-red: #da0f3f;
-    --color-red-light: hsl(346, 87%, 46%, 15%);
-    --color-green: #00c476;
-    --color-green-light: hsl(156, 100%, 38%, 15%);
-    --color-gray-900: #1e1e66;
-    --color-gray-1000: #1e1e66;
-    --color-gray-700: #2d2b7c;
-    --color-gray-300: rgba(242, 242, 254, 0.3);
-    --color-gray-200: rgba(242, 242, 254, 0.7);
-    --color-white: #f2f2fe;
-    --color-bg: #0f0f3e;
-    --color-category: #6f6af8;
-    --color-hover-white: #f2f2fe;
-    --transition: all 300ms ease;
-    --transition-color-change:.02ms ;
-    --color-btn: #6f6af8;
-    --container-width-lg: 74%;
-    --container-width-md: 88%;
-    --form-width: 40%;
-    --color-url-log: #6f6af8;
-    --color-search-bar: #f2f2fe;
+body.dark-theme {
+  /*========== Colors ==========*/
+  --color-primary: #6f6af8;
+  --color-primary-light: hsl(242, 91%, 69%, 18%);
+  --color-primary-variant: #5854c7;
+  --color-red: #da0f3f;
+  --color-red-light: hsl(346, 87%, 46%, 15%);
+  --color-green: #00c476;
+  --color-green-light: hsl(156, 100%, 38%, 15%);
+  --color-gray-900: #1e1e66;
+  --color-gray-1000: #1e1e66;
+  --color-gray-700: #2d2b7c;
+  --color-gray-300: rgba(242, 242, 254, 0.3);
+  --color-gray-200: rgba(242, 242, 254, 0.7);
+  --color-white: #f2f2fe;
+  --color-bg: #0f0f3e;
+  --color-category: #6f6af8;
+  --color-hover-white: #f2f2fe;
+  --transition: all 300ms ease;
+  --transition-color-change: 0.02ms;
+  --color-btn: #6f6af8;
+  --container-width-lg: 74%;
+  --container-width-md: 88%;
+  --form-width: 40%;
+  --color-url-log: #6f6af8;
+  --color-search-bar: #f2f2fe;
 
-    --msg-tr-color: #2d2b7c;
-    --msg-detail-color:#2d2b7c;
-    --box-color-grphs:hsl(346, 87%, 46%, 15%);
-     --view-btn: #5854c7;
-     --map-invert:100%;
+  --msg-tr-color: #2d2b7c;
+  --msg-detail-color: #2d2b7c;
+  --box-color-grphs: hsl(346, 87%, 46%, 15%);
+  --view-btn: #5854c7;
+  --map-invert: 100%;
 
+  --support-card-color: hsl(216, 50%, 16%);
 
-    --transition-color-change:.02s ;
+  --transition-color-change: 0.02s;
 }
 
 /*========== Button Dark/Light ==========*/
-.change-theme{
-font-size: 1.2rem;
-padding: 1rem;
-cursor: pointer;
+.change-theme {
+  font-size: 1.2rem;
+  padding: 1rem;
+  cursor: pointer;
 }

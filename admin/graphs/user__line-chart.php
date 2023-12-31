@@ -23,14 +23,14 @@ $chart_data_json = json_encode($chart_data);
 ?>
 
 <script>
-   var ctx = document.getElementById('lineChartUser').getContext('2d');
+    var ctx = document.getElementById('lineChartUser').getContext('2d');
     var chartData = <?php echo $chart_data_json; ?>;
 
-    var titles = chartData.map(function(item) {
+    var titles = chartData.map(function (item) {
         return item.title;
     });
 
-    var likes = chartData.map(function(item) {
+    var likes = chartData.map(function (item) {
         return item.likes;
     });
 

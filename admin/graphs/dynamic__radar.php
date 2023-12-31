@@ -1,5 +1,5 @@
 <?php
-    $currentUserID = $_SESSION['user-id'];
+$currentUserID = $_SESSION['user-id'];
 
 $query = "SELECT posts.id, posts.title, posts.date_time, categories.title AS category_title, posts.count, posts.downloads, posts.views 
           FROM posts
@@ -12,4 +12,3 @@ while ($row = mysqli_fetch_assoc($result)) {
     $postsData[] = $row;
 }
 ?>
-

@@ -61,7 +61,8 @@ $chartData = [
 
 <?php
 // Function to generate random color
-function getRandomColor() {
+function getRandomColor()
+{
     $letters = '0123456789ABCDEF';
     $color = '#';
     for ($i = 0; $i < 6; $i++) {

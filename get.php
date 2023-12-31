@@ -23,7 +23,8 @@ if (isset($_POST['how'])) {
 }
 
 // Function to like a post
-function likePost($userId, $postId) {
+function likePost($userId, $postId)
+{
     global $connection;
 
     // Check if the user has already liked the post
@@ -62,7 +63,8 @@ function likePost($userId, $postId) {
 }
 
 // Function to unlike a post
-function unlikePost($userId, $postId) {
+function unlikePost($userId, $postId)
+{
     global $connection;
 
     // Check if the user has liked the post
@@ -101,7 +103,8 @@ function unlikePost($userId, $postId) {
 }
 
 // Function to update the count of a post
-function updatePostCount($postId, $connection) {
+function updatePostCount($postId, $connection)
+{
     // Retrieve the current count of the post
     $query = "SELECT COUNT(*) AS count FROM likes WHERE liked='$postId'";
     $result = mysqli_query($connection, $query);
